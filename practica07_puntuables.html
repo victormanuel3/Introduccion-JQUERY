@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="/ACTIVITAT07/dist/jquery.validate.min.js"></script>
+    <script src="/ACTIVITAT07/dist/additional-methods.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.js"></script>
+    <script src="intro_jQuery.js" defer></script>
+    <link rel="stylesheet" href="intro_jQuery.css">
+</head>
+
+<body>
+    <h1>EXERCICIS PUNTUABLES jQUERY</h1>
+    <section>
+        <h1>EXERCICIS PUNTUABLES CSS</h1>
+        <div class="contentImg"> <img src="img/jquery_logo.jpg" />
+            <div id="infoImg"> #infoImg </div>
+        </div>
+        <div class="contenidorBotons">
+            <div id="mostraModal">MOSTRA MODAL</div>
+            <div id="movimentContinu">MOVIMENT CONTINU </div>
+        </div>
+        <div id="fonsModal"> </div>
+        <div id="contingutModal"> CLICK FORA DEL REQUADRE PER TANCAR AQUEST MISSATGE </div>
+        <div style="position:relative;width: 100%;">
+            <div id="divMobil" style="position:relative"> </div>
+        </div>
+    </section>
+    <section>
+        <h1>EXERCICIS PUNTUABLES DOM</h1>
+        <nav id="selectOperation">
+            <input type="text" id="dades" />
+            <div id="addAttr"> NEW DIV SET ATTRIBUTE</div>
+            <div id="delNextNode"> NEW DIV DELETE NEXT ELEMENT </div>
+        </nav>
+        <div id="domNodes">
+            <h3>!!ADD DIVS HERE!!!</h3>
+        </div>
+    </section>
+    <section>
+        <h1>EXERCICIS PUNTUABLES SLIDER AMB SLICK</h1>
+        <div class="slider">
+            <div class="pelicula">
+                <h1>Avatar: El sentido del agua</h1>
+                <p>Director: James Cameron</p>
+                <img src="/ACTIVITAT07/img/Avatar.jpg" alt="Avatar: El sentido del agua">
+                <p>Género: Ciencia ficción</p>
+            </div>
+            <div class="pelicula">
+                <h1>Spider-Man: No Way Home</h1>
+                <p>Director: Jon Watts</p>
+                <img src="/ACTIVITAT07/img/Spider-man.jpg" alt="Spider-Man: No Way Home">
+                <p>Género: Aventura</p>
+            </div>
+            <div class="pelicula">
+                <h1>Lo imposible</h1>
+                <p>Director: Juan Antonio Bayona</p>
+                <img src="/ACTIVITAT07/img/Lo_imposible.jpg" alt="Lo imposible">
+                <p>Género: Drama</p>
+            </div>
+            <div class="pelicula">
+                <h1>The Avengers</h1>
+                <p>Director: Joss Whedon</p>
+                <img src="/ACTIVITAT07/img/Avengers.webp" alt="The Avengers">
+                <p>Género: Acción</p>
+            </div>
+        </div>
+        <button class="js-remove-slide">Eliminar Película</button>
+    </section>
+
+    <section>
+        <h1>EXERCICIS PUNTUABLES jQUERY VALIDATOR</h1>
+        <form action="" id="formulario">
+            <label>
+                Título <input type="text" name="titulo">
+            </label><br><br>
+            <label>
+                Director <input type="text" name="director">
+            </label><br><br>
+            <label>Imágenes
+                <select name="imagen">
+                    <option value="/ACTIVITAT07/img/El Rey león.jpg">Rey León</option>
+                    <option value="/ACTIVITAT07/img/El niño con el pijama de rayas.jpg">El niño con el pijama de rayas</option>
+                    <option value="/ACTIVITAT07/img/Busqueda de la felicidad.webp">En búsqueda de la felicidad</option>
+                    <option value="/ACTIVITAT07/img/Blade Runner.jpg">Blade Runner</option>
+                </select><br>
+            </label>
+            <p>GÉNERO:</p>
+            <label>
+                Terror<input type="checkbox" name="genero" value="terror">
+            </label>
+            <label>
+                Comedia <input type="checkbox" name="genero" value="comedia">
+            </label>
+            <label>
+                Acción <input type="checkbox" name="genero" value="acción">
+            </label>
+            <label>
+                Ciencia Ficción <input type="checkbox" name="genero" value="ciencia ficción">
+            </label><br><br>
+            <button class="add-slide">Añadir Película</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
